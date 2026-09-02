@@ -1,9 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: rificaintergroup/rificaintergroup-web
   branch: main
 
 media_folder: "images"
 public_folder: "/images"
+
 collections:
   - name: "pages"
     label: "Pages"
